@@ -1,0 +1,86 @@
+body{
+	font-family: Montserrat;
+}
+	
+	#title {
+		background-color: #EC2768;
+		color: #ffffff;
+        padding-bottom: 10%;
+	}
+
+	#title a {
+		background-color: #EC2768;
+		color: #ffffff;
+	}
+
+	.container-fluid{
+		padding: 3% 10%;
+        
+	}
+
+	h1 {
+		font-family: "Montserrat";
+		font-weight: 900;
+		font-size: 3rem;
+		line-height: 1.5;
+		text-align: left;
+		
+	}
+
+	.navbar {
+		padding: 0 0 4.5rem;
+	}
+
+	.navbar-brand{
+		font-family: Ubuntu;
+		font-size: 2.5rem;
+		font-weight: bold;
+	}
+
+	.nav-item {
+		padding: 0 18px;
+	}
+
+	.nav-link{
+		font-size: 1.2rem;
+		font-family: Montserrat;
+	}
+
+	.download-button{
+		margin: 5% 3% 5% 0%;
+	}
+
+	.title-image{
+		width : 60%;
+		transform: rotate(-25deg);
+        left: 10%;
+	}
+
+    #features{
+        margin: 5%;
+      }
+      
+      
+      
+      .card-title {
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+      
+      .card-text{
+        color: #8f8f8f;
+      }
+      
+      .fas{
+        color: #BD7B91;
+      }
+      
+      .fas:hover{
+        color: #EC2768;
+      }
+
+      #footer {
+        text-align: center;
+        margin: 0 auto;
+      }
