@@ -1,16 +1,18 @@
 body{
 	font-family: Montserrat;
+	margin: 0;
+    padding: 0;
 }
 	
 	#title {
-		background-color: #EC2768;
-		color: #ffffff;
+		background-color: #F7F09B;
+		color: #971549;
         padding-bottom: 10%;
 	}
 
 	#title a {
-		background-color: #EC2768;
-		color: #ffffff;
+		background-color: #F7F09B;
+		color: #971549;
 	}
 
 	.container-fluid{
@@ -48,12 +50,18 @@ body{
 
 	.download-button{
 		margin: 5% 3% 5% 0%;
+		color: #971549;
 	}
 
+	
 	.title-image{
 		width : 60%;
-		transform: rotate(-25deg);
-        left: 10%;
+		transform: rotate(-20deg);
+        left: 1%;
+	}
+
+	.form-group{
+		color: #FF5200;
 	}
 
     #features{
@@ -69,15 +77,16 @@ body{
       }
       
       .card-text{
-        color: #8f8f8f;
+        color: #470031;
       }
       
       .fas{
-        color: #BD7B91;
+        color: #FF5200;
+		
       }
       
       .fas:hover{
-        color: #EC2768;
+        color: #FF5200;
       }
 
       #footer {
