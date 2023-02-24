@@ -1,9 +1,26 @@
+
 body{
 	font-family: Montserrat;
 	margin: 0;
     padding: 0;
 }
-	
+
+.blackout {
+	background-color: black;
+	color: white;
+  }
+
+  .blackout, .blackout * {
+    filter: brightness(0) grayscale(1);
+}
+
+.blackout-all img {
+    filter: brightness(0.5) grayscale(0);
+}
+#noircir {
+	filter: none;
+  }
+
 	#title {
 		background-color: #F7F09B;
 		color: #971549;
@@ -52,6 +69,12 @@ body{
 		margin: 5% 3% 5% 0%;
 		color: #971549;
 	}
+	.btn-primary {
+		background-color: #007bff;
+		border-color: #007bff;
+	  }
+
+	
 
 	
 	.title-image{
@@ -93,3 +116,4 @@ body{
         text-align: center;
         margin: 0 auto;
       }
+
